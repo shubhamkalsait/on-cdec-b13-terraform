@@ -183,6 +183,9 @@ cluster - version - 1.20
 
 Dependancy in Terraform
 ---------
-1. Imp
+1. Implicit
+2. explicit
+
+
 
 
