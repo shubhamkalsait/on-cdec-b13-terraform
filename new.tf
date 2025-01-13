@@ -15,5 +15,6 @@ resource "aws_vpc"  "my_vpc"{
 }
 
 resource "aws_subnet" "subnet1" {
-    
+    name = "private"
+    az
 } 
