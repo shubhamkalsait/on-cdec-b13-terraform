@@ -187,6 +187,10 @@ Dependancy in Terraform
 2. explicit - depends_on
 
 
+workspace
+--------
+
+
 
 
 
