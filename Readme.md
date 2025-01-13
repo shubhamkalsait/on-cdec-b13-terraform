@@ -189,7 +189,7 @@ Dependancy in Terraform
 
 workspace
 --------
-
+env - dev, test, uat, prod
 
 
 
