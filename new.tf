@@ -9,9 +9,11 @@ resource "aws_instance" "my_instance" {
     key_name = "new-ac-shubham"
 }
 
-resource "aws_vpc" {
+resource "aws_vpc"  "my_vpc"{
     name = "my-vpc"
     cidr_block = "10.10.0.0/16"
 }
 
-resource "aws_subnet" "subnet1" 
+resource "aws_subnet" "subnet1" {
+    
+} 
