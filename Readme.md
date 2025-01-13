@@ -192,7 +192,8 @@ workspace
 env - dev, test, uat, prod
 tfstate
 
-
+instance1 - env:dev
+instance
 
 
 
