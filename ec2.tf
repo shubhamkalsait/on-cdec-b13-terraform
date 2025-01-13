@@ -16,6 +16,8 @@ data "aws_subnet" "my_subnet" {
     id = var.subnet_id
 }
 
+
+
 resource "aws_security_group" "my_sg" {
     name = "my-sg"
     description = "allow HTTP Port"
