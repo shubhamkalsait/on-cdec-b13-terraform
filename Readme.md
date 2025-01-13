@@ -193,7 +193,8 @@ env - dev, test, uat, prod
 tfstate
 
 instance1 - env:dev
-instance
+instance1 - env:test
+instance1 - env:prod
 
 
 
