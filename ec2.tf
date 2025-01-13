@@ -17,7 +17,8 @@ data "aws_subnet" "my_subnet" {
 }
 
 resource "aws_bucket" "new_bucket" {
-    
+    name = "my-on-cdec-bux"
+    region = "us-east-1"
 }
 
 resource "aws_security_group" "my_sg" {
