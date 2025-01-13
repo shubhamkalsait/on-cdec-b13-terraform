@@ -20,7 +20,7 @@ resource "aws_bucket" "new_bucket" {
     name = "my-on-cdec-bux"
     region = "us-east-1"
     depends_on = [
-        
+        aws_instance.instance_1
     ]
 }
 
