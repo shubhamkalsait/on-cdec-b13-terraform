@@ -17,5 +17,7 @@ resource "aws_vpc"  "my_vpc"{
 resource "aws_subnet" "subnet1" {
     name = "private"
     vpc_id = aws_vpc.my_vpc.id
-    cidr_block = 
+    cidr_block = "10.10.0.0/16"
 } 
+
+
