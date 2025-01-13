@@ -187,7 +187,7 @@ Dependancy in Terraform
 2. explicit
 
 
-sg_my_sg
+
 
 
 
