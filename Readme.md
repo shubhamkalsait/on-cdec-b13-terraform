@@ -174,8 +174,8 @@ HW.
 (Diagram shared in the repo)
 
 
-changable
-
+mutable - changable
+immutable - unchangable
 
 
 
