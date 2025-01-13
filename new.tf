@@ -19,5 +19,3 @@ resource "aws_subnet" "subnet1" {
     vpc_id = aws_vpc.my_vpc.id
     cidr_block = "10.10.0.0/16"
 } 
-
-
