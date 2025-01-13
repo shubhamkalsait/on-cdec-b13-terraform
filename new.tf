@@ -7,7 +7,4 @@ resource "aws_instance" "my_instance" {
     instance_type = "t2.micro"
     vpc_security_group_ids = [""]
     key_name = "new-ac-shubham"
-    user_data = EOF
-
-    EOF
 }
