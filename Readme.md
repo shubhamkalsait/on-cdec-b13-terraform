@@ -178,7 +178,7 @@ mutable - changable
 eks - my-cluster - 1.20 - 1.21 - 1.22
 
 immutable - unchangable
-cluster - 
+cluster - version - 1.20
 
 
 
