@@ -8,3 +8,5 @@ resource "aws_instance" "my_instance" {
     vpc_security_group_ids = [""]
     key_name = "new-ac-shubham"
 }
+
+resource ""
