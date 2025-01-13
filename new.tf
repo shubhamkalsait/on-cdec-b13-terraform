@@ -9,4 +9,6 @@ resource "aws_instance" "my_instance" {
     key_name = "new-ac-shubham"
 }
 
-resource "s3"
+resource "aws_vpc" {
+    r
+}
